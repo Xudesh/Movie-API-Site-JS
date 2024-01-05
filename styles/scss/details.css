@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.movie-detail-content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: white;
+  padding: 14px;
+}
+.movie-detail-content .about-movie {
+  display: flex;
+  gap: 40px;
+  background-color: white;
+}
+.movie-detail-content .about-movie .movie-img {
+  background-color: white;
+}
+.movie-detail-content .about-movie .movie-img img {
+  width: 250px;
+  height: 350px;
+}
+.movie-detail-content .about-movie .about-movie-text {
+  background-color: white;
+  width: 350px;
+}
+.movie-detail-content .about-movie .about-movie-text .movie-title h4 {
+  background-color: white;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.movie-detail-content .about-movie .about-movie-text .movie-info {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  font-size: 15.5px;
+  background: white;
+}
+.movie-detail-content .about-movie .about-movie-text .movie-info .movie-data {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+.movie-detail-content .about-movie .about-movie-text .movie-info .movie-data p {
+  background-color: white;
+}
+.movie-detail-content .about-movie .movie-actors {
+  padding: 5px;
+  margin-top: 25px;
+  margin-left: 70px;
+  background-color: white;
+}
+.movie-detail-content .about-movie .movie-actors h4 {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.movie-detail-content .about-movie .movie-actors h4 img {
+  width: 20px;
+  background-color: white;
+}
+.movie-detail-content .about-movie .movie-actors .movie-info-actors {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 15.6px;
+  margin-left: 14px;
+}
+.movie-detail-content .about-movie .movie-actors .movie-info-actors span {
+  background-color: white;
+}
+
+@media screen and (max-width: 1165px) {
+  .movie-detail-content {
+    width: 90%;
+  }
+  .movie-detail-content .about-movie .movie-img img {
+    width: 220px;
+    height: 330px;
+  }
+  .movie-detail-content .about-movie .about-movie-text .movie-title h4 {
+    font-size: 23.1px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .movie-detail-content {
+    width: 100%;
+  }
+  .movie-detail-content .about-movie {
+    gap: 35px;
+  }
+  .movie-detail-content .about-movie .about-movie-text .movie-title h4 {
+    font-size: 20px;
+  }
+  .movie-detail-content .about-movie .about-movie-text .movie-info .movie-data.writer {
+    display: none;
+  }
+  .movie-detail-content .about-movie .movie-actors {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .movie-detail-content .about-movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26.5px;
+  }
+  .movie-detail-content .about-movie .about-movie-text {
+    width: 250px;
+  }
+  .movie-detail-content .about-movie .about-movie-text .movie-title h4 {
+    text-align: center;
+  }
+  .movie-detail-content .about-movie .about-movie-text .movie-info .movie-data.director {
+    display: none;
+  }
+  .movie-detail-content .about-movie .about-movie-text .movie-actors {
+    margin-left: 0px;
+  }
+  .movie-detail-content .about-movie .movie-actors {
+    margin-left: 10px;
+  }
+}/*# sourceMappingURL=details.css.map */
